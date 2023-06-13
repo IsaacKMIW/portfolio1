@@ -1,0 +1,73 @@
+
+/* ====Global==== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* ====Contenu==== */
+.ecran {
+    width: 100%;
+    height: 100vh;
+    background-image: url("cool-css-backgrounds.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte {
+    width: 90%;
+    max-width: 440px;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid gray;
+    background: rgba(128, 128, 128, 0.251);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(36, 36, 36);
+    backdrop-filter: blur(5px);
+}
+
+.carte img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carte h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.carte p {
+    font-size: 20px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.reseau img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+
+.reseau img:hover {
+    background-color: white;
+}
+.btn {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    color: violet;
+    padding: 4px;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 190px;
+}
